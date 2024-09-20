@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+}
+.header_button{
+    border-radius: 5px;
+    background-color: #27263D;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+}
+.header_button:hover{
+    transform: translate(0,-3px);
+    box-shadow: 0 5px 15px 0 #7AA899;
+}
+.header_button:active{
+    box-shadow: 0px 10px 40px 10px #7AA899;
+}
+.header_input{
+
+    border-radius: 7px;
+    background-color: #7AA899;
+    color: white;
+    padding: 13px 300px 12px 10px;
+    
+    transition: 0.5s;
+}
+.header_input:hover{
+    box-shadow: 0 0px 15px 5px #7AA899;
+}
+.header_input:focus{
+    border-radius: 7px;
+    background-color: #7AA899;
+    color: white;
+    box-shadow: 0 0px 15px 5px #7AA899;
+}

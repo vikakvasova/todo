@@ -1,0 +1,40 @@
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 35px;
+}
+.block:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #6E6C78;
+
+}
+.block-left{
+    display: flex;
+    justify-content: space-between;
+}
+.block-left_checkbox{
+    margin: 0px 20px;
+    transition: 0.5s;
+}
+.block-left_checkbox:hover{
+    color: #7AA899;
+}
+
+.block-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.block-right_date{
+    margin: 10px 20px;
+}
+.block-right_button{
+    margin: 10px 20px;
+    transition: 0.5s;
+}
+.block-right_button:hover{
+    color: #7AA899;
+}

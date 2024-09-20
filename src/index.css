@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;                               
+  vertical-align: baseline;          
+  background: transparent;      
+  text-decoration: none;
+  list-style: none;                  
+}
+.a{
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+.link{
+  transition: 0.3s;
+}
+input:focus {
+  background-color: white;
+  outline: 0;
+  border-width: thin;
+  border-radius: 2px;
+}
+html{
+  font-family: 'Montserrat';
+}
+
