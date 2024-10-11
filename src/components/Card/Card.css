@@ -14,6 +14,8 @@
 .card-left{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 .card-left__checkbox{
     margin: 0px 20px;
@@ -22,7 +24,9 @@
 .card-left__checkbox:hover{
     color: #7AA899;
 }
-
+.card-left__text{
+    max-width: 400px;
+}
 .card-right{
     display: flex;
     flex-direction: column;

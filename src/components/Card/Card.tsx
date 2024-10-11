@@ -11,7 +11,9 @@ function Card({oneTodo, remove, changeTodo}: {oneTodo: ITodo, remove: (value:num
                 <div className='card-left__checkbox' onClick={() => changeTodo(oneTodo.id)}>
                     {oneTodo.isChecked ? <RiCheckboxBlankCircleFill /> : <RiCheckboxBlankCircleLine />}
                 </div>
-                <div className='card-left__text'>{oneTodo.text}</div>
+                <div className='card-left__text'>
+                    <p>{oneTodo.text}</p>
+                </div>
             </div>
             <div className='card-right'>
                 <div className='card-right__date'>{oneTodo.date}</div>
@@ -22,3 +24,5 @@ function Card({oneTodo, remove, changeTodo}: {oneTodo: ITodo, remove: (value:num
 }
 
 export default Card;
+
+

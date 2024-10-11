@@ -90,8 +90,7 @@ function App() {
             searchText={searchText}
             showSearchResults={showSearchResults}
             setSearchText={setSearchText}
-            showAllTodo={() => dispatch(showAllTodoRedux())}>
-            </Header>
+            showAllTodo={() => dispatch(showAllTodoRedux())}/>
           {todos.status === "loading" && <h2>Loading...</h2>}
           {todos.error && <h2>ERROR!!!!</h2>}
           {todos.todo.length > 0 ? (checkShow()): null}
