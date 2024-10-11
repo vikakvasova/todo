@@ -1,4 +1,4 @@
-.block{
+.card{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,32 +6,32 @@
     transition: 0.5s;
     margin: 35px;
 }
-.block:hover{
+.card:hover{
     border-radius: 10px;
     box-shadow: 5px 5px 20px #6E6C78;
 
 }
-.block-left{
+.card-left{
     display: flex;
     justify-content: space-between;
 }
-.block-left_checkbox{
+.card-left__checkbox{
     margin: 0px 20px;
     transition: 0.5s;
 }
-.block-left_checkbox:hover{
+.card-left__checkbox:hover{
     color: #7AA899;
 }
 
-.block-right{
+.card-right{
     display: flex;
     flex-direction: column;
     align-items: end;
 }
-.block-right_date{
+.card-right__date{
     margin: 10px 20px;
 }
-.block-right_button{
+.card-right__button{
     margin: 10px 20px;
     transition: 0.5s;
 }
