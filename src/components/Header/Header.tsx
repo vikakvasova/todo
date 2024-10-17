@@ -28,7 +28,13 @@ function Header({inputText, setInputText, addTodo, deleteAllTodo, deleteLastTodo
                     placeholder='Add todo' 
                     className='header__input' 
                     value={inputText} 
-                    onChange={(e) => setInputText(e.target.value)}>
+                    onChange={(e) => setInputText(e.target.value)}
+                    onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                            addTodo();
+                        }
+                    }}
+                    >
                     </input>
                 <button className='header__button' onClick={addTodo}>Add</button>
                 
